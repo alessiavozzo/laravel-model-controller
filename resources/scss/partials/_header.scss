@@ -1,0 +1,24 @@
+@use "./variables" as *;
+
+header {
+    background-color: $lmc-nav;
+    padding: 1rem 0;
+
+    .login-btn {
+        border-radius: 20px;
+        border: 1px solid $lmc-btn-border;
+        background-color: $lmc-btn;
+        color: $lmc-btn-border;
+    }
+
+    .links {
+        border-radius: 20px;
+        border: 1px solid $lmc-btn-border;
+        background-color: $lmc-btn;
+
+        a {
+            color: $lmc-btn-border;
+        }
+    }
+
+}
