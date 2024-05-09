@@ -1,1 +1,10 @@
 @use "./variables" as *;
+
+#movies {
+    background-color: $lmc-btn;
+    padding: 2rem 0;
+
+    .card-title {
+        color: $lmc-btn-border;
+    }
+}
